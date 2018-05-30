@@ -4,23 +4,22 @@ import java.util.Scanner;
 
 public class Power {
     public static void main(String[] args) {
-        int a;
-        if (args.length > 0) {
-            a = Integer.parseInt(args[0]);
-        } else {
-            Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+
+        do{
+
 
             System.out.println("Введите число:");
-            a = scanner.nextInt();
-        }
+           int a = scanner.nextInt();
 
-        while (a % 2 == 0) {
-            a /= 2; // a = a / 2;
-        }
-        if(a == 1) {
+
+        if (a % 2 == 0)
             System.out.println("Является");
-        } else {
+
+        else
             System.out.println("Не является");
-        }
+            System.out.println("Введите exit для выхода");
+
+        }while (true);
     }
 }
