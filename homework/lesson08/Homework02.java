@@ -9,9 +9,12 @@ public class Homework02 {
 
         String input = scan.nextLine();
         Pattern p = Pattern.compile("(0?[1-9]|[12][0-9]|3[01])\\.(0?[1-9]|1[012])\\.((19|20)\\d\\d)");
+        Pattern p2 = Pattern.compile("((19|20)\\d\\d)\\.(0?[1-9]|1[012])\\.(0?[1-9]|[12][0-9]|3[01])");
         Matcher m = p.matcher(input);
+        Matcher m2 = p2.matcher(input);
 
-        if (m.matches() == false) {
+
+        if (m.matches() == false && m2.matches() == false) {
             System.out.println("Дата введена некорректно");
         } else {
 
@@ -30,11 +33,20 @@ public class Homework02 {
                 index = input.indexOf(".", index+1);
             }
 
-            String day = words[0];
+            String day;
             int month = Integer.parseInt(words[1]);
-            String year = words[2];
+            String year;
             final String [] months = {"Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
                                       "Июль", "Август", "Сентябрь", "Октрябрь", "Ноябрь", "Декабрь" };
+
+
+            if (m.matches() == true) {
+                day = words[0];
+                year = words[2];
+            } else {
+                day = words[2];
+                year = words[0];
+            }
 
             System.out.println("месяц: " + months[month-1]);
             System.out.println("день: " + day);
