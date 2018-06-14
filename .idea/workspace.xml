@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e3f8bda-aba2-451c-bfef-b069860cbc20" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lesson09/Matrix.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lesson09/Maximums.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/lesson09/homework" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/lesson08/Capitalizer.java" afterPath="$PROJECT_DIR$/src/lesson08/Capitalizer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,16 +30,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Strings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lesson07/Strings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -79,11 +67,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Capitalizer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Capitalizer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lesson08/Capitalizer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="615">
               <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homework" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lesson09/homework">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -171,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/lesson08/homework" />
         <option value="$PROJECT_DIR$/src/lesson09/Matrix.java" />
         <option value="$PROJECT_DIR$/src/lesson08/Capitalizer.java" />
+        <option value="$PROJECT_DIR$/src/lesson09/homework" />
       </list>
     </option>
   </component>
@@ -446,7 +445,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526321055891</updated>
-      <workItem from="1528619131550" duration="1415000" />
+      <workItem from="1528619131550" duration="2445000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 3">
       <created>1526929103406</created>
@@ -462,11 +461,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528620543293</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lesson 9">
+      <created>1529000675679</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529000675679</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1415000" />
+    <option name="totallyTimeSpent" value="2445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -539,7 +545,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 3" />
     <MESSAGE value="Lesson 8, homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 8, homework" />
+    <MESSAGE value="Lesson 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -572,14 +579,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lesson07/FormatString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson05/Power.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -900,6 +899,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson09/homework">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
