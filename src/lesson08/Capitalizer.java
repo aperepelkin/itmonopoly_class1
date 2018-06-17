@@ -37,7 +37,7 @@ public class Capitalizer {
         for(idx = 0; idx < words.length; idx++) {
             String word = words[idx];
             // TODO
-            words[idx] = //capitalized word
+//            words[idx] = //capitalized word
         }
     }
 }
