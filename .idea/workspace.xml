@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de377c88-ce18-4f32-ac63-38908070d634" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lesson09/DoubleMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson09/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson11/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson11/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson11/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson11/Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson11/Trangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson09/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson09/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson11/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson11/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson11/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson11/Trangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson11/Triangle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Trangle.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lesson11/Trangle.java">
+      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lesson11/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="125">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -84,11 +79,13 @@
       <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lesson11/Point.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="278">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding>
                 <element signature="e#200#201#0" expanded="true" />
                 <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lesson11/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="187">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -141,6 +138,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -153,8 +151,9 @@
         <option value="$PROJECT_DIR$/src/lesson09/Printer.java" />
         <option value="$PROJECT_DIR$/src/lesson09/DoubleMatrix.java" />
         <option value="$PROJECT_DIR$/src/lesson11/Recursion.java" />
-        <option value="$PROJECT_DIR$/src/lesson11/Main.java" />
         <option value="$PROJECT_DIR$/src/lesson11/Trangle.java" />
+        <option value="$PROJECT_DIR$/src/lesson11/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/lesson11/Main.java" />
         <option value="$PROJECT_DIR$/src/lesson11/Point.java" />
       </list>
     </option>
@@ -227,18 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Recursion">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson11.Main" />
-      <module name="itmonopoly_class1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson10.Main" />
       <module name="itmonopoly_class1" />
@@ -246,6 +234,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lesson10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson11.Main" />
+      <module name="itmonopoly_class1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,8 +308,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -333,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529348958546</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson11">
+      <created>1529520458998</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1529520458998</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -373,7 +379,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson10" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson10" />
+    <MESSAGE value="lesson11" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson11" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/lesson10/Main.java">
@@ -467,28 +474,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson11/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/lesson11/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="125">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson11/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="278">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="e#200#201#0" expanded="true" />
             <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson11/Trangle.java">
+    <entry file="file://$PROJECT_DIR$/src/lesson11/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="187">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>

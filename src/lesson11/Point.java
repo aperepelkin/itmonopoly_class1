@@ -18,6 +18,6 @@ public class Point {
     }
 
     public boolean inOneLineWith(Point p1, Point p2) {
-
+        return false;
     }
 }

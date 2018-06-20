@@ -1,12 +1,12 @@
 package lesson11;
 
-public class Trangle {
+public class Triangle {
 
     private Point vertex1;
     private Point vertex2;
     private Point vertex3;
 
-    public Trangle(Point vertex1, Point vertex2, Point vertex3) {
+    public Triangle(Point vertex1, Point vertex2, Point vertex3) {
         this.vertex1 = vertex1;
         this.vertex2 = vertex2;
         this.vertex3 = vertex3;

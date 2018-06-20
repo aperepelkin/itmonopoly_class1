@@ -9,11 +9,10 @@ public class Main {
         System.out.printf("Distance: %f", c1.distance(c2));
 
         Point p1 = new Point(1,2);
-        Trangle t = new Trangle(
+        Triangle t = new Triangle(
                 p1,
                 new Point(2,3),
                 new Point(3,4));
-
-        t.vertex1 = new Point(2,3);
+        t.print();
     }
 }
