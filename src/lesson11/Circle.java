@@ -21,6 +21,10 @@ public class Circle {
         this.y = y;
     }
 
+    public void move(Point point) {
+//        ...
+    }
+
     public void print() {
         System.out.printf("Radius: %s, X: %s, Y: %s\n", radius, x, y);
     }

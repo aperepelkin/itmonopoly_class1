@@ -13,7 +13,7 @@ public class Triangle {
     }
 
     public void setVertex1(Point vertex1) {
-        if(!vertex1.inOneLineWith(vertex2, vertex3))
+        if(!Point.inOneLineWith(vertex1, vertex2, vertex3))
             this.vertex1 = vertex1;
     }
 

@@ -20,4 +20,8 @@ public class Point {
     public boolean inOneLineWith(Point p1, Point p2) {
         return false;
     }
+
+    public static boolean inOneLineWith(Point p1, Point p2, Point p3) {
+        return p1.inOneLineWith(p2, p3);
+    }
 }
