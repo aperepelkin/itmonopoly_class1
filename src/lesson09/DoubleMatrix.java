@@ -2,11 +2,11 @@ package lesson09;
 
 import java.util.Random;
 
-public class Matrix {
+public class DoubleMatrix {
 
     public static void main(String[] args) {
 
-        int[][] matrix = new int[8][5];
+        double[][] matrix = new double[8][5];
 
         System.out.println(matrix.length);
 

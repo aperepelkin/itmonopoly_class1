@@ -1,5 +1,8 @@
 package lesson09;
 
+import com.sun.deploy.util.ArrayUtil;
+import utils.ArraysUtils;
+
 import java.util.Random;
 
 public class Maximums {
@@ -28,16 +31,7 @@ public class Maximums {
         int[] maxs = new int[m];
 
         for (int i = 0; i < m; i++){
-            maxs[i] = matrix[i][0];
-            int maxj = 0;
-            for (int j = 1; j < n; j++) {
-                if(matrix[i][j] > maxs[i]) {
-                    maxs[i] = matrix[i][j];
-                    maxj = j;
-                }
-            }
-            matrix[i][maxj] = matrix[i][0];
-            matrix[i][0] = maxs[i];
+            maxs[i] = ArraysUtils.max( matrix[i]);
         }
         System.out.println("Result:");
         for (int[] row : matrix) {
