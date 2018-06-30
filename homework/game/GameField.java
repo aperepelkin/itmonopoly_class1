@@ -1,3 +1,6 @@
+/* для правильного отображения картинок необходимо поменять их путь на свой в методе loadImages()
+ */
+
 package test.test;
 
 import javax.swing.*;
@@ -13,7 +16,7 @@ public class GameField extends JPanel implements ActionListener {
     public static final int DOT_SIZE = 32;
     public static final int SIZE = 640;
     public static final int DOT_AXIS_QUANTITY = SIZE/DOT_SIZE;  //20
-    public static final int DOT_OVERALL_QUANTITY = DOT_AXIS_QUANTITY*DOT_AXIS_QUANTITY; //400
+    public static final int DOT_OVERALL_QUANTITY = DOT_AXIS_QUANTITY*DOT_AXIS_QUANTITY;
     private Image playerImage;
     private Image playerImage2;
     private Image obstacleImage;
@@ -26,7 +29,7 @@ public class GameField extends JPanel implements ActionListener {
     private boolean right;
     private boolean left;
     private boolean playerDirection = false;
-    private int obstaclesQuantity = 100;
+    private int obstaclesQuantity = 20;
     private int enemiesQuantity = 4;
     public Player player;
     public static boolean[][] fieldStatement = new boolean[SIZE+DOT_SIZE/DOT_SIZE][SIZE+DOT_SIZE/DOT_SIZE];  //21*21
@@ -191,15 +194,15 @@ public class GameField extends JPanel implements ActionListener {
             fieldStatement[playerY/BEING_SIZE][playerX/BEING_SIZE] = true;
         }
 
-        @Override
-        public boolean equals(Object obj) {
-            if (obj instanceof Obstacles) {
-                if ((((Obstacles) obj).getObstacleY() == playerY) && (((Obstacles) obj).getObstacleX() == playerX)) {
-                    return true;
-                }
-            }
-            return false;
-        }
+//        @Override
+//        public boolean equals(Object obj) {
+//            if (obj instanceof Obstacles) {
+//                if ((((Obstacles) obj).getObstacleY() == playerY) && (((Obstacles) obj).getObstacleX() == playerX)) {
+//                    return true;
+//                }
+//            }
+//            return false;
+//        }
 
 
 
