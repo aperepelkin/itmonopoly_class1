@@ -16,5 +16,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="javafx-console-1.0-SNAPSHOT" level="project" />
   </component>
 </module>

@@ -4,6 +4,9 @@ import java.util.Random;
 
 public class Matrix {
 
+    int n = 1;
+    int m = 3;
+
     public static void main(String[] args) {
 
         int[][] matrix = new int[8][5];

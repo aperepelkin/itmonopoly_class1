@@ -24,4 +24,12 @@ public class Point {
     public static boolean inOneLineWith(Point p1, Point p2, Point p3) {
         return p1.inOneLineWith(p2, p3);
     }
+
+    public double getX() {
+        return x;
+    }
+
+    public double getY() {
+        return y;
+    }
 }
