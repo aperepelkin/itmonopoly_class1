@@ -37,9 +37,15 @@ public abstract class Drawing extends Application {
                 }
 
                 @Override
+                public void drawCircle(Point center, double radius) {
+                    main.getGc().strokeOval(center.getX(), center.getY(), radius, radius);
+                }
+
+                @Override
                 public void clear() {
                     main.getGc().clearRect(0, 0, main.getCanvas().getWidth(), main.getCanvas().getHeight());
                 }
+
             };
 
             new Thread(() -> {

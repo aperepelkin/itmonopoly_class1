@@ -8,6 +8,7 @@ import lesson11.Point;
 public interface Painter {
 	// служит для отрисовки линий
 	void drawline(Point from, Point to);
+	void drawCircle(Point center, double radius);
 	default void clear() {
 		System.out.println("Do nothing");
 	}
