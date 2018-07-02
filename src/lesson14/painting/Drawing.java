@@ -14,7 +14,7 @@ public abstract class Drawing extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
-        FXMLLoader loader = new FXMLLoader(ClassLoader.getSystemResource("lesson22/homework/views/Main.fxml"));
+        FXMLLoader loader = new FXMLLoader(ClassLoader.getSystemResource("lesson14/painting/views/Main.fxml"));
 
         Parent root = loader.load();
 
